@@ -47,3 +47,7 @@ def test2():
   assert isinstance(student_database, dict)
   assert student_database['student1']['name'] == "munna"
   assert student_database['student3']['age'] == 26
+
+test1()
+test2()
+
